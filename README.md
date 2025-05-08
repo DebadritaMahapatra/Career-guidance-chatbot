@@ -1,7 +1,6 @@
 # Career-Guidance-ChatBot
 An AI based chatbot which help about career related problem.
 
-
 ## Prerequisites  
 - Windows OS  
 - Python 3.8 or later  
@@ -35,7 +34,7 @@ Download and install gpt4all-installer-win64.exe from the official GPT4All websi
 After installation, restart your computer to apply changes.
 
 ### 7. Download & Configure the Model 
-Download the model: ```mistral-7b-instruct-v0.2.Q4_K_M.gguf```   from   https://huggingface.co/   and Locate your model file and update the model path in ```chatbot.py``` with correct path : ```model_path = "C:/path/to/mistral-7b-instruct-v0.2.Q4_K_M.gguf" ```
+Download the model: ```mistral-7b-instruct-v0.2.Q4_K_M.gguf``` or  ```mistral-7b-instruct-v0.1.Q4_0.gguf``` or  ```tinyllama-1.1b-chat-v1.0.Q4_0.gguf```   from   https://huggingface.co/   and Locate your model file and update the model path in ```chatbot.py``` with correct path like : ```model_path = "C:/path/to/mistral-7b-instruct-v0.2.Q4_K_M.gguf" ```
 Save the file after making changes.
 #### [ you can use another model depend on your purpose ] 
 
